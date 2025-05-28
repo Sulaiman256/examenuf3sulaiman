@@ -20,13 +20,13 @@ export default function Navbar() {
             <Link href="/pricing" className="text-sm hover:text-gray-300 transition-colors">
               Pricing
             </Link>
-            <Link href="/status" className="text-sm hover:text-gray-300 transition-colors">
+            <Link href="#" className="text-sm hover:text-gray-300 transition-colors">
               Status
             </Link>
-            <Link href="/faqs" className="text-sm hover:text-gray-300 transition-colors">
+            <Link href="#" className="text-sm hover:text-gray-300 transition-colors">
               FAQs
             </Link>
-            <Link href="/contact" className="text-sm hover:text-gray-300 transition-colors">
+            <Link href="#" className="text-sm hover:text-gray-300 transition-colors">
               Contact Us
             </Link>
           </nav>

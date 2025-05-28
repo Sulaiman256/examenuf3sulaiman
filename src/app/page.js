@@ -102,10 +102,10 @@ export default function Home() {
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4 md:mb-6">Instant setup, no custom code</h2>
             <p className="text-base md:text-lg text-gray-300 px-2">
               <span className="md:hidden">
-                Invite the bot, pick a channel, and you're set—no custom code needed, and no vendor lock-in.
+                Invite the bot, pick a channel, and you are set—no custom code needed, and no vendor lock-in.
               </span>
               <span className="hidden md:inline">
-                Install the app, pick a channel, and you're set! No custom code needed, and no complex configuration
+                Install the app, pick a channel, and you are set! No custom code needed, and no complex configuration
                 required.
               </span>
             </p>

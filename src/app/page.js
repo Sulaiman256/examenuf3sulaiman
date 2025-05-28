@@ -1,3 +1,4 @@
+"use client"
 import { Button } from "@/components/ui/button"
 import { Clock, Zap, Shield } from "lucide-react"
 

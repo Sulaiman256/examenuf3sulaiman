@@ -2,6 +2,7 @@ import { Inter } from "next/font/google"
 import "./globals.css"
 import Header from "@/app/misComponentes/Header"
 import Footer from "@/app/misComponentes/Footer"
+import HeaderMobile from "./misComponentes/HeaderMobile"
 
 const inter = Inter({
   subsets: ["latin"],
@@ -17,7 +18,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={inter.variable}>
       <body className={`${inter.className} bg-black text-white min-h-screen antialiased flex flex-col`}>
-        <Header />
+        <div className="hidden md:block">
+          <Header />
+        </div>
+        <div className="block md:hidden">
+          <HeaderMobile />
+        </div>
         <main className="flex-1">
           {children}
         </main>
